@@ -35,7 +35,7 @@ Copy `.bash_bookmark` in your `~` and add this line to your `.bash_profile`or `.
 Or simply execute this line :
 
 ```bash
-wget -P ~ https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmarks && echo ". ~/.bashrc" >> ~/.bashrc
+wget -P ~ https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmarks && echo ". ~/.bash_bookmarks" >> ~/.bashrc
 ```
 
 Be careful, this script add aliases in your shell global scope.
