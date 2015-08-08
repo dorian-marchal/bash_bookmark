@@ -41,7 +41,7 @@ wget -P ~ https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/
 __With Git:__
 
 ```bash
-git clone https://github.com/dorian-marchal/bash_bookmark ~/.bash_bookmark && echo "~/.bash_bookmark/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
+git clone https://github.com/dorian-marchal/bash_bookmark ~/.bash_bookmark && echo ". ~/.bash_bookmark/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
 ```
 
 __Manually:__
