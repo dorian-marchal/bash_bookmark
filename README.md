@@ -26,16 +26,31 @@ __Manually edit your bookmarks : `bme`__
 
 ### Installation
 
+__With curl:__
+
+```bash
+curl -L https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmark -o ~/.bash_bookmark && echo "~/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
+```
+
+__With wget:__
+
+```bash
+wget -P ~ https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmark && echo ". ~/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
+```
+
+__With Git:__
+
+```bash
+git clone https://github.com/dorian-marchal/bash_bookmark ~/.bash_bookmark && echo "~/.bash_bookmark/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
+```
+
+__Manually:__
+
 Copy `.bash_bookmark` in your `~` and add this line to your `.bash_profile`or `.bashrc` :
 
 ```bash
 . ~/.bash_bookmark
 ```
 
-Or simply execute this line :
-
-```bash
-wget -P ~ https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmark && echo ". ~/.bash_bookmark" >> ~/.bashrc
-```
 
 Be careful, this script add aliases in your shell global scope.
