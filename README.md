@@ -16,6 +16,9 @@ __List bookmarks : `bml`__
 
 Use `bml` to show your existing bookmarks
 
+![bml](https://cloud.githubusercontent.com/assets/6225979/9180326/195f02da-3fa2-11e5-9b06-811415166dbe.png)
+
+
 __Delete a bookmark : `bmd <bookmark-name>`__
 
 Use `bmd <bookmark-name>` to delete a bookmark.
