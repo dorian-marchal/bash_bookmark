@@ -32,24 +32,24 @@ __Manually edit your bookmarks : `bme`__
 __With curl:__
 
 ```bash
-curl -L https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmark -o ~/.bash_bookmark && echo "~/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
+curl -L https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmark -o ~/.bash_bookmark && chmod u+x ~/.bash_bookmark && echo "~/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
 ```
 
 __With wget:__
 
 ```bash
-wget -P ~ https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmark && echo ". ~/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
+wget -P ~ https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmark && chmod u+x ~/.bash_bookmark && echo ". ~/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
 ```
 
 __With Git:__
 
 ```bash
-git clone https://github.com/dorian-marchal/bash_bookmark ~/.bash_bookmark && echo ". ~/.bash_bookmark/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
+git clone https://github.com/dorian-marchal/bash_bookmark ~/.bash_bookmark && chmod u+x ~/.bash_bookmark && echo ". ~/.bash_bookmark/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
 ```
 
 __Manually:__
 
-Copy `.bash_bookmark` in your `~` and add this line to your `.bash_profile`or `.bashrc` :
+Copy `.bash_bookmark` in your `~`, make it executable with `chmod u+x` and add this line to your `.bash_profile`or `.bashrc` :
 
 ```bash
 . ~/.bash_bookmark
