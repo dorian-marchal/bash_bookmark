@@ -32,7 +32,7 @@ __Manually edit your bookmarks : `bme`__
 __With curl:__
 
 ```bash
-curl -L https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmark -o ~/.bash_bookmark && chmod u+x ~/.bash_bookmark && echo "~/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
+curl -L https://raw.githubusercontent.com/dorian-marchal/bash_bookmark/master/.bash_bookmark -o ~/.bash_bookmark && chmod u+x ~/.bash_bookmark && echo ". ~/.bash_bookmark" >> ~/.bashrc && . ~/.bashrc
 ```
 
 __With wget:__
